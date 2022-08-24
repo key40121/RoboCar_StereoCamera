@@ -211,6 +211,7 @@ int main() {
 
     std::cout << "Left x : " << ob1.GetMoments() << std::endl;
     std::cout << "Right x : " << ob2.GetMoments() << std::endl;
+    std::cout << "Disparity : " << std::abs(ob1.GetMoments() - ob2.GetMoments()) << std::endl;
 
     return 0;
 }
