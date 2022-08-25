@@ -1,0 +1,8 @@
+/mnt/hgfs/Ubuntu/robocar_stereocamera/build/CMakeFiles/edit_cache.dir
+/mnt/hgfs/Ubuntu/robocar_stereocamera/build/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/Ubuntu/robocar_stereocamera/build/src/CMakeFiles/greetings.dir
+/mnt/hgfs/Ubuntu/robocar_stereocamera/build/src/CMakeFiles/edit_cache.dir
+/mnt/hgfs/Ubuntu/robocar_stereocamera/build/src/CMakeFiles/rebuild_cache.dir
+/mnt/hgfs/Ubuntu/robocar_stereocamera/build/test/CMakeFiles/a.out.dir
+/mnt/hgfs/Ubuntu/robocar_stereocamera/build/test/CMakeFiles/edit_cache.dir
+/mnt/hgfs/Ubuntu/robocar_stereocamera/build/test/CMakeFiles/rebuild_cache.dir
