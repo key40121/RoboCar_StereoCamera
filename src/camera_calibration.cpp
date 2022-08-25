@@ -43,6 +43,14 @@ CameraCalibration::CameraCalibration(std::string camera_calib_matrix_left, std::
     fs2["P2"] >> P2;
     fs2["Q"] >> Q;
 
+    this->R = R;
+    this->T = T;
+    this->R1 = R1;
+    this->R2 = R2;
+    this->P1 = P1;
+    this->P2 = P2;
+    this->Q = Q;
+
 }
 
 CameraCalibration::~CameraCalibration()

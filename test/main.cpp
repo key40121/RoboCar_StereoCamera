@@ -10,36 +10,6 @@ int main() {
     cv::Mat raw_img_left = cv::imread("../../test_3_left/09.png");
     cv::Mat raw_img_right = cv::imread("../../test_3_right/09.png");
 
-    // Reading calibration matrix.
-    // cv::Mat R1, R2, P1, P2, Q, R;
-    // cv::Vec3d T;
-
-    // std::cout << "Read camera right matrix" << std::endl;
-    // cv::FileStorage fs0("../../calibration/camera_left.xml", cv::FileStorage::READ);
-    // cv::Mat cameraMatrixRight;
-    // cv::Mat distortionCoefficientsRight;
-    // fs0["intrinsic"] >> cameraMatrixRight;
-    // fs0["distortion"] >> distortionCoefficientsRight;
-    // fs0.release();
-
-    // std::cout << "Read camera left matrix" << std::endl;
-    // cv::FileStorage fs1("../../calibration/camera_right.xml", cv::FileStorage::READ);
-    // cv::Mat cameraMatrixLeft;
-    // cv::Mat distortionCoefficientsLeft;
-    // fs1["intrinsic"] >> cameraMatrixLeft;
-    // fs1["distortion"] >> distortionCoefficientsLeft;
-    // fs1.release();
-
-    // std::cout << "Read stereo calibration matrix" << std::endl;
-    // cv::FileStorage fs2("../../calibration/stereoCalibration0812.xml", cv::FileStorage::READ);
-    // fs2["R"] >> R;
-    // fs2["T"] >> T;
-    // fs2["R1"] >> R1;
-    // fs2["R2"] >> R2;
-    // fs2["P1"] >> P1;
-    // fs2["P2"] >> P2;
-    // fs2["Q"] >> Q;
-
     // Calling Camera calibration matrix.
     std::string camera_calib_matrix_left = "../../calibration/camera_left.xml";
     std::string camera_calib_matrix_right = "../../calibration/camera_right.xml";
